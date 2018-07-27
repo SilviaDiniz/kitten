@@ -1,0 +1,23 @@
+body{
+  margin: 0px;
+}
+
+.kitten {
+  background: url('images/kitten-small.png') no-repeat center bottom, url('images/night.jpg') no-repeat;
+  background-size: auto, cover;
+  height: 640px;
+}
+
+@media screen and (min-width: 600px){
+  .kitten{
+     background: url('images/kitten-medium.png') no-repeat center bottom, url('images/sunny-day.jpg') no-repeat;
+     background-size: auto, cover;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .kitten{
+    background: url('images/kitten-large.png') no-repeat center bottom, url('images/dawn.png') no-repeat;
+    background-size: auto, cover;
+ }
+}
